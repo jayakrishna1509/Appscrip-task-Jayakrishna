@@ -175,12 +175,6 @@ useEffect(() => {
 
 ---
 
-## 📄 License
-
-This project is for educational and assessment purposes.
-
----
-
 ## 📌 Conclusion
 
 This project highlights the ability to build a scalable, responsive, and SEO-friendly product listing interface using modern front-end practices.
