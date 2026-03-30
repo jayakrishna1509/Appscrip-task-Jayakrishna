@@ -1,0 +1,15 @@
+[build]
+  command = "npm run build"
+  publish = ".next"
+
+[build.environment]
+  NEXT_PUBLIC_API_BASE_URL = "https://fakestoreapi.com"
+
+[context.production.environment]
+  NEXT_PUBLIC_API_BASE_URL = "https://fakestoreapi.com"
+
+[context.deploy-preview.environment]
+  NEXT_PUBLIC_API_BASE_URL = "https://fakestoreapi.com"
+
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
